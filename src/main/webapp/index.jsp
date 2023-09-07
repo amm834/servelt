@@ -26,6 +26,11 @@
     <p>
         Age: <%= user.getAge() %>
     </p>
+
+    <h1>Getting Queries</h1>
+    <p>
+        Name is  <%= request.getParameter("name")%> and age is <%= request.getParameter("age") %>
+    </p>
 </h1>
 </body>
 </html>
